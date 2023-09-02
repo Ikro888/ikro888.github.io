@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+
+  }
+
+header a {
+
+text-decoration: none;
+}
+
+  nav {
+    background-color: #444;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: #32a620;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  h1 {
+    color: #333;
+  }
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .movie {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  .movie:hover {
+    transform: translateY(-5px);
+  }
+  .movie img {
+    max-width: 100%;
+    height: auto;
+  }
+  .movie-info {
+    padding: 1rem;
+  }
+  .movie-title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .movie-details {
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  .movie-synopsis {
+    font-style: italic;
+    color: #444;
+  }
+  .buy-button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .buy-button:hover {
+    background-color: #ff5500;
+  }
+
+  
